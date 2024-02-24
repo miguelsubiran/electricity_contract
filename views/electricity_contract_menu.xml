@@ -10,8 +10,9 @@
         parent="electricity_contact_menu_inicial"
         sequence="1"/>
 
-    <record id="contracts_action" model="ir.ui.view">
-        <field name="name">contract.tree</field>
-        <field name="model">contract</field>
+    <record id="contracts_action" model="ir.actions.act_window">
+        <field name="name">contract</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
     </record>
 </odoo>
