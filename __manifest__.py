@@ -11,6 +11,6 @@
     "depends": ["base", "account"],
     "development_status": "pruebas",
     "data": [
-        "views/res_partner.xml"
+        "views/contract.xml"
     ]
 }
