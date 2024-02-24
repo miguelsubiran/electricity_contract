@@ -11,6 +11,7 @@
     "depends": ["base", "account"],
     "development_status": "pruebas",
     "data": [
-        "views/contract.xml"
+        "views/electricity_contract_menu.xml"
+        "views/electricity_contract.xml"
     ]
 }
