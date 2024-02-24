@@ -2,9 +2,7 @@
 <odoo>
     <!-- Menu Inicial -->
     <menuitem id="electricity_contact_menu_inicial"
-        name="Elect. Contratos"
-        groups="elecricity_contract"
-        sequence="52"/>    
+        name="Elect. Contratos"/>    
 
     <menuitem id="Contratos_Electricidad"
         name="Contratos"
