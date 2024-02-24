@@ -8,7 +8,7 @@
     <menuitem id="contratos_electricidad"
         name="Contratos"
         parent="electricity_contract_menu_inicial"
-        action="product_template_form_view"
+        action="product.template.form.view"
         sequence="1"/>
 
     <record id="product_template_form_view" model="ir.ui.view">
