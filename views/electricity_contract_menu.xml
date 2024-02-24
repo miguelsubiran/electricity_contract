@@ -3,5 +3,5 @@
     <!-- Menu Inicial -->
     <menuitem id="electricity_contract_menu_inicial"
         name="Elect. Contratos"
-        sequence="3"/>    
+        sequence="10"/>    
 </odoo>
