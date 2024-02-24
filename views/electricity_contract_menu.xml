@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
     <!-- Menu Inicial -->
-    <menuitem id="electricity_contact_menu_inicial"
+    <menuitem id="electricity_contract_menu_inicial"
         name="Elect. Contratos"
         active="False"/>    
 
-    <menuitem id="Contratos_Electricidad"
+    <menuitem id="contratos_electricidad"
         name="Contratos"
-        parent="electricity_contact_menu_inicial"
+        parent="electricity_contract_menu_inicial"
         sequence="1"/>
 
     <record id="contracts_action" model="ir.actions.act_window">
