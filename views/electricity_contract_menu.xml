@@ -3,7 +3,7 @@
     <!-- Menu Inicial -->
     <menuitem id="electricity_contact_menu_inicial"
         name="Elect. Contratos"
-        active=False/>    
+        active="False"/>    
 
     <menuitem id="Contratos_Electricidad"
         name="Contratos"
