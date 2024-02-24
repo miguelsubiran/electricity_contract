@@ -8,10 +8,10 @@
     <menuitem id="Contratos_Electricidad"
         name="Contratos"
         parent="electricity_contact_menu_inicial"
-        action="contract"
+        action="contracts_action"
         sequence="1"/>
 
-    <record id="contract" model="ir.ui.view">
+    <record id="contracts_action" model="ir.ui.view">
         <field name="name">contract.tree</field>
         <field name="model">contract</field>
     </record>
