@@ -6,6 +6,6 @@ from odoo import fields, models
 class Contract(models.Model):
     _name = "contract"
     _description = "Contratos"
-    _order = "priority desc, name"
 
-nombre_contrato = fields.char('Name', required=True)
+    nombre_contrato = fields.char(string='Contrato', required=True)
+    partner_name = fields.char(string='Cliente', required=True)
