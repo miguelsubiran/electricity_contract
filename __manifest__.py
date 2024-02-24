@@ -13,5 +13,5 @@
     "data": [
         'views/electricity_contract_menu.xml',
         'views/electricity_contract.xml',
-    ]
+    ],
 }
