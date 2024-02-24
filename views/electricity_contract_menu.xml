@@ -10,6 +10,6 @@
         sequence="1"/>
 
     <record id="view_contract_tree" model="ir.ui.view">
-        <field name="name">Contratos<field>
+        <field name="name">Contratos</field>
     </record>
 </odoo>
