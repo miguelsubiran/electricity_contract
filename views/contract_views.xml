@@ -12,15 +12,13 @@
             </field>
         </record>
         
-        <record model="ir.actions.act_window" id="contratos.action_window">
-            <field name="name">contratos electricos window</field>
-            <field name="res_model">contratos.electricos</field>
+        <record model="ir.actions.act_window" id="action_list_contratos">
+            <field name="name">contratos</field>
+            <field name="res_model">contratos.contratos</field>
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem name="Contratos" id="contratos.menu_root"/>
-        <menuitem name="Contratos" id="contratos.contratos" parent="contratos.menu_root"/>
-        <menuitem name="Contratos tree" id="contratos.contratos_tree" parent="contratos.contratos" 
-                action="contratos.action_window"/>
+        <menuitem name="contratos" id="menu_contratos" parent="menu_root" 
+                action="action_list_contratos"/>
     </data>
 </odoo>
