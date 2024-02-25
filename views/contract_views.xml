@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="view_contract_tree" model="ir.ui.view">
-        <field name="name">contract.tree</field>
-        <field name="model">ir.ui.view</field>
+    <record id="view_contract_electricity_tree" model="ir.ui.view">
+        <field name="name">contract.electricity.tree</field>
+        <field name="model">contract_electricity</field>
+        <field name="type">tree</field>
         <field name="arch" type="xml">
             <!--form string="Contratos de Suministros">
                 <header>

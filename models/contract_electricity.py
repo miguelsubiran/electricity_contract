@@ -3,8 +3,8 @@
 
 from odoo import fields, models
 
-class Contract(models.Model):
-    _name = "contract"
+class ContractElectricity(models.Model):
+    _name = "contract_electricity"
     _description = "Contratos"
 
     nombre_contrato = fields.char(string='Contrato', required=True)
