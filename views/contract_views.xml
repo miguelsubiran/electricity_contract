@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="view_contract_electricity_tree" model="ir.ui.view">
+    <!--record id="view_contract_electricity_tree" model="ir.ui.view">
         <field name="name">electricity.contract.tree</field>
         <field name="model">contract</field>
         <field name="type">tree</field>
@@ -10,5 +10,5 @@
                 <field name="partner_name"/>
             </tree>
         </field>
-    </record>
+    </record-->
 </odoo>
