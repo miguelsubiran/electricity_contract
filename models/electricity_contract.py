@@ -7,5 +7,4 @@ class Contract(models.Model):
     _name = 'electricity.contract.contract.electricity'
     _description = 'Contratos'
 
-    nombre_contrato = fields.char()
-    
+    nombre_contrato = fields.Char()
