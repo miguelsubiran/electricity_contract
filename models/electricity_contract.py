@@ -4,7 +4,7 @@
 from odoo import models, fields, api
 
 class Contract(models.Model):
-    _name = 'electricity.contract.contract'
+    _name = 'electricity.contract'
     _description = 'Contratos'
 
     name = fields.Char()
