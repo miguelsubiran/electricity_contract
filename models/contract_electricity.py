@@ -4,7 +4,7 @@
 from odoo import fields, models
 
 class ContractElectricity(models.Model):
-    _name = "contract_electricity"
+    _name = "contract.electricity"
     _description = "Contratos"
 
     nombre_contrato = fields.char(string='Contrato', required=True)
