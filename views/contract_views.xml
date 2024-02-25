@@ -10,5 +10,5 @@
                 <field name="partner_name"/>
             </tree>
         </field>
-    </record-->
+    </record>
 </odoo>
