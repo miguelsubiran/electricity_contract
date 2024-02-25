@@ -7,5 +7,4 @@ class Contract(models.Model):
     _name = 'electricity.contract.contract.electricity'
     _description = 'Contratos'
 
-    nombre_contrato = fields.Char(string='Contrato', required=True)
-    partner_name = fields.Char(string='Cliente', required=True)
+    nombre_contrato = fields.Char()
