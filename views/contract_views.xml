@@ -14,7 +14,7 @@
         
         <record model="ir.actions.act_window" id="action_list_contratos">
             <field name="name">contratos</field>
-            <field name="res_model">contratos.contratos</field>
+            <field name="res_model">contratos.electricos</field>
             <field name="view_mode">tree,form</field>
         </record>
 
