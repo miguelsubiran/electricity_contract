@@ -3,7 +3,7 @@
 
 from odoo import fields, models
 
-class ContractElectricity(models.Model):
-    _name = 'electricity.contract.contract.electricity'
+class Contract(models.Model):
+    _name = 'electricity.contract.contract'
     _description = "Contratos"
 
