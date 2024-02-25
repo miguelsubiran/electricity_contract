@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <!--record id="view_contract_electricity_tree" model="ir.ui.view">
+    <record id="view_contract_electricity_tree" model="ir.ui.view">
         <field name="name">contract.electricity.tree</field>
         <field name="model">contract.electricity</field>
         <field name="type">tree</field>
         <field name="arch" type="xml">
-            <form string="Contratos de Suministros">
-                <header>
-                    <button name="contract" string="Crear" type="object">
-                    <field name="campo_status" widget="statusbar" readonly="1"/>
-                </header>
-                <sheet>
-                    <group>
-                        <field name="contrato"/>
-                    </group>
-                    <group>
-                        <field name="nombre_cliente"/>
-                    </group>
-                </sheet>
-            </form>
             <tree string="Contratos de Suministro">
                 <field name="nombre_contrato"/>
                 <field name="partner_name"/>
