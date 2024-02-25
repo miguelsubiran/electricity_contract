@@ -18,6 +18,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <menuitem id="menu_contratos_root" name="Contratos" sequence="0"/>
         <!--menuitem name="contratos" id="contratos.menu_root" action="action_list_contratos"/-->
     </data>
 </odoo>
