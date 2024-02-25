@@ -4,6 +4,6 @@
 from odoo import fields, models
 
 class Contract(models.Model):
-    _name = 'electricity.contract.contract'
+    _name = 'electricity.contract.contract.electricity'
     _description = "Contratos"
 
