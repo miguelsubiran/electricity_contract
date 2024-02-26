@@ -26,6 +26,6 @@
         </record>        
 
         <menuitem id="menu_contratos_root" name="Contratos" sequence="0"/>
-        <menuitem id="tipocontrato.menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
+            <menuitem id="tipocontrato.menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/>
     </data>
 </odoo>
