@@ -8,7 +8,7 @@
             <field name="arch" type="xml">
                 <tree string="Contratos de Suministro">
                     <field name="nombre_contrato"/>
-                    <field name="tipo_contrato_ids"/>
+                    <field name="tipo_contrato_id"/>
                 </tree>
             </field>
         </record>
@@ -19,7 +19,7 @@
             <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="Tipos de contrato de suministro">
-                    <field name="tipocontrato_id"/>
+                    <field name="name"/>
                 </tree>
             </field>
         </record>
