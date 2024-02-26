@@ -9,6 +9,7 @@
                 <tree string="Contratos de Suministro">
                     <field name="nombre_contrato"/>
                     <field name="tipo_contrato_id"/>
+                    <field name="partner_id"/>
                 </tree>
             </field>
         </record>
