@@ -7,7 +7,9 @@
             <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="Contratos de Suministro">
-                    <field name="nombre_contrato"/>
+                    <field name="fecha_firma"/>
+                    <field name="estado_id"/>
+                    <field name="fecha_alta"/>
                     <field name="tipo_contrato_id"/>
                     <field name="partner_id"/>
                 </tree>
@@ -36,6 +38,12 @@
             <field name="res_model">tipo.contrato</field>
             <field name="view_mode">tree,form</field>
         </record>        
+
+        <record model="ir.actions.act_window" id="action_list_estadoscontrato">
+            <field name="name">EstadosContrato</field>
+            <field name="res_model">estados.contrato</field>
+            <field name="view_mode">tree,form</field>
+        </record>
 
         <menuitem id="menu_contratos_root" name="Contratos" sequence="0"/>
             <!--menuitem id="tipocontrato_menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
