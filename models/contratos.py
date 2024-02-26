@@ -5,4 +5,10 @@ class contratos(models.Model):
     _description = 'Contratos'
 
     nombre_contrato = fields.Char(string='Contrato', required=True)
-    tipo_contrato = fields.One2Many(string='Tipo de contrato', required=True)
+    tipo_contrato_ids = fields.One2Many(comodel_name='tipo.contrato', string='Tipo de contrato', required=True)
+
+class TipoContrato(models.Model):
+    _name = 'tipo.contrato'
+    _description = 'Tipos de Contrato'
+
+    tipocontrato_id = fields.many2one(comodel_name='contratos.electricos', string='Tipo de Contrato')
