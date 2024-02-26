@@ -13,7 +13,7 @@
             </field>
         </record>
         
-        <!--record id="view_tipo_contrato_tree" model="ir.ui.view">
+        <record id="view_tipo_contrato_tree" model="ir.ui.view">
             <field name="name">tipo.contrato.tree</field>
             <field name="model">tipo.contrato</field>
             <field name="type">tree</field>
@@ -22,7 +22,7 @@
                     <field name="tipocontrato_id"/>
                 </tree>
             </field>
-        </record-->
+        </record>
 
         <record model="ir.actions.act_window" id="action_list_contratos">
             <field name="name">Contratos</field>
