@@ -39,9 +39,9 @@
             <field name="view_mode">tree,form</field>
         </record>        
 
-        <record model="ir.actions.act_window" id="action_list_estadoscontrato">
-            <field name="name">EstadosContrato</field>
-            <field name="res_model">estados.contrato</field>
+        <record model="ir.actions.act_window" id="action_list_estadocontrato">
+            <field name="name">EstadoContrato</field>
+            <field name="res_model">estado.contrato</field>
             <field name="view_mode">tree,form</field>
         </record>
 
