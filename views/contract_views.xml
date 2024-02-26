@@ -30,11 +30,11 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <!--record model="ir.actions.act_window" id="action_list_tipocontrato">
+        <record model="ir.actions.act_window" id="action_list_tipocontrato">
             <field name="name">TipoContrato</field>
             <field name="res_model">tipo.contrato</field>
             <field name="view_mode">tree,form</field>
-        </record-->        
+        </record>        
 
         <menuitem id="menu_contratos_root" name="Contratos" sequence="0"/>
             <!--menuitem id="tipocontrato_menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
