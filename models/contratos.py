@@ -11,4 +11,4 @@ class TipoContrato(models.Model):
     _name = 'tipo.contrato'
     _description = 'Tipos de Contrato'
 
-    tipocontrato_id = fields.Char(string='Tipo de Contrato', required=True)
+    tipocontrato_id = fields.One2many('contratos.electricos', 'tipo_contrato_ids', string='Tipo de Contrato', required=True)
