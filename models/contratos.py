@@ -11,4 +11,4 @@ class TipoContrato(models.Model):
     _name = 'tipo.contrato'
     _description = 'Tipos de Contrato'
 
-    tipocontrato_id = fields.Many2one('contratos.electricos', 'tipo_contrato_ids', string='Tipo de Contrato', required=True)
+    tipocontrato_id = fields.Many2one('contratos.electricos', string='Tipo de Contrato', required=True)
