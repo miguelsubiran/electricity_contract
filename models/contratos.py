@@ -5,7 +5,7 @@ class contratos(models.Model):
     _description = 'Contratos'
 
     nombre_contrato = fields.Char(string='Contrato', required=True)
-    tipo_contrato_ids = fields.One2Many(comodel_name='tipo.contrato', string='Tipo de contrato', required=True)
+    tipo_contrato_ids = fields.one2many(comodel_name='tipo.contrato', string='Tipo de contrato', required=True)
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
