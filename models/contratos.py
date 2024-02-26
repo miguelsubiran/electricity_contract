@@ -6,7 +6,7 @@ class contratos(models.Model):
 
     nombre_contrato = fields.Char(string='Contrato', required=True)
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
-    partner_id = fields.Many2one('res.partner',string='Cliente',readonly=True,required=True)
+    partner_id = fields.Many2one('res.partner',string='Cliente')
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
