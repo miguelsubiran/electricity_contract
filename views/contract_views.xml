@@ -7,7 +7,7 @@
             <field name="type">tree</field>
             <field name="arch" type="xml">
                 <tree string="Contratos de Suministro">
-                    <field name="fecha_firma" widget="date"/>
+                    <field name="fecha_firma" widget="date" width="12"/>
                     <field name="fecha_alta" widget="date"/>
                     <field name="fecha_vencimiento" widget="date"/>
                     <field name="estado_id"/>
