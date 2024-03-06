@@ -25,7 +25,7 @@
                 <form string="Contratos de Suministro">
                     <group>
                         <group>
-                            <field name="fecha_firma" string="Fecha de Firma" widget="date"/>
+                            <field name="fecha_firma" widget="date"/>
                             <field name="fecha_alta" widget="date"/>
                             <field name="fecha_vencimiento" widget="date"/>
                             <field name="estado_id"/>

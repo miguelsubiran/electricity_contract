@@ -5,9 +5,9 @@ class contratos(models.Model):
     _description = 'Contratos'
 
     #nombre_contrato = fields.Char(string='Contrato', required=True)
-    fecha_firma=fields.Date(string='F.firma')
-    fecha_alta=fields.Date(string='F.alta')
-    fecha_vencimiento=fields.Date(string='F.Vto.')
+    fecha_firma=fields.Date(string='Fecha de firma')
+    fecha_alta=fields.Date(string='Fecha de alta')
+    fecha_vencimiento=fields.Date(string='Fecha de Vto.')
     estado_id=fields.Many2one('estado.contrato',string='Estado')
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
     cliente_id = fields.Many2one('res.partner',string='Cliente')
