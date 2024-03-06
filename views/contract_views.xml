@@ -57,7 +57,7 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <!--Menus Categorias-->>
+        <!--Menus Categorias-->
         <menuitem id="contratos.menu_root" name="Contratos" sequence="0"/>
         
         <menuitem name="Contratos" id="contratos.menu_contratos" parent="contratos.menu_root"/>
