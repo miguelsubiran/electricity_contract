@@ -15,7 +15,7 @@
                     <field name="cliente_id"/>
                     <field name="comercial_id"/>
                     <field name="cups_id"/>
-                    <field name="comercialiadora_id"/>
+                    <field name="comercializadora_id"/>
                 </tree>
             </field>
         </record>
