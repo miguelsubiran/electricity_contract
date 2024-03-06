@@ -27,17 +27,19 @@
             <field name="arch" type="xml">
                 <form string="Contratos de Suministro">
                     <group>
-                        <field name="fecha_firma" widget="date"/>
-                        <field name="fecha_alta" widget="date"/>
-                        <field name="fecha_vencimiento" widget="date"/>
-                        <field name="estado_id"/>
-                    </group>
-                    <group>
-                        <field name="tipo_contrato_id"/>
-                        <field name="cliente_id"/>
-                        <field name="comercial_id"/>
-                        <field name="cups_id"/>
-                        <field name="comercializadora_id"/>
+                        <group>
+                            <field name="fecha_firma" widget="date"/>
+                            <field name="fecha_alta" widget="date"/>
+                            <field name="fecha_vencimiento" widget="date"/>
+                            <field name="estado_id"/>
+                        </group>
+                        <group>
+                            <field name="tipo_contrato_id"/>
+                            <field name="cliente_id"/>
+                            <field name="comercial_id"/>
+                            <field name="cups_id"/>
+                            <field name="comercializadora_id"/>
+                        </group>
                     </group>
                 </form>
             </field>
