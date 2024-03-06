@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>        
+<odoo>
+    <data>
         <record id="view_contratos_electricos_tree" model="ir.ui.view">
             <field name="name">contratos.electricos.tree</field>
             <field name="model">contratos.electricos</field>
