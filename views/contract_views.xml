@@ -58,7 +58,7 @@
         </record>
 
         <!--Menus Categorias-->
-        <menuitem name="Contratos" id="electricity.menu_root"/>
+        <menuitem name="Contratos" id="electricity_contract.menu_root"/>
         
         <menuitem name="Contratos" id="contratos.menu_contratos" parent="contratos.menu_root"/>
         <menuitem name="Auxiliares" id="contratos.menu_auxiliares" parent="contratos.menu_root"/>
