@@ -88,6 +88,12 @@
             <field name="view_mode">tree,form</field>
         </record>
 
+        <record model="ir.actions.act_window" id="action_list_comercialcontrato">
+            <field name="name">Comerciales</field>
+            <field name="res_model">comercial.contrato</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
         <!--Menus Categorias-->
         <menuitem name="Contratos" id="electricity_contract.menu_root"/>
         
