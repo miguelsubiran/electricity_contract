@@ -45,7 +45,32 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <menuitem id="menu_contratos_root" name="Contratos" sequence="0"/>
+        <record model="ir.actions.act_window" id="action_list_cupscontrato">
+            <field name="name">CupsContrato</field>
+            <field name="res_model">cups.contrato</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_list_comercializadora">
+            <field name="name">Comercializadora</field>
+            <field name="res_model">comercializadora.contrato</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!--Menus Categorias-->>
+        <menuitem id="contratos.menu_root" name="Contratos" sequence="0"/>
+        
+        <menuitem name="Contratos" id="contratos.menu_contratos" parent="contratos.menu_root"/>
+        <menuitem name="Auxiliares" id="contratos.menu_auxiliares" parent="contratos.menu_root"/>
             <!--menuitem id="tipocontrato_menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
+
+        <!--Acciones-->
+        <menuitem name="Contratos" id="manage.contratos_list" parent="contratos.menu_contratos" action="action_list_contratos"/>
+        <menuitem name="CUPS" id="manage.cups_list" parent="contratos.menu_cups" action="action_list_cupscontrato"/>
+
+        <menuitem name="Tipos Contrato" id="manage.tipos_contratos_list" parent="contratos.menu_auxiliares" action="action_list_tipocontrato"/>
+        <menuitem name="Estados Contrato" id="manage.estados_contratos_list" parent="contratos.menu_auxiliares" action="action_list_estadocontrato"/>
+        <menuitem name="Comercializadoras" id="manage.comercializadoras_contratos_list" parent="contratos.menu_auxiliares" action="action_list_comercializadora"/>
+
     </data>
 </odoo>
