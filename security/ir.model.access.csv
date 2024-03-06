@@ -1,3 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_electricity_contract,contratos,model_contratos_electricos,base.group_user,1,1,1,1
 access_electricity_contract_cups,cups,model_cups_contrato,base.group_user,1,1,1,1
+access_electricity_contract_tipo_contrato,tipocontrato,model_tipo_contrato,base.group_user,1,1,1,1
