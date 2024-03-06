@@ -104,7 +104,7 @@
         <!--Acciones-->
         <menuitem name="Contratos" id="electricity_contract.contratos_list" parent="electricity_contract.menu_contratos" action="action_list_contratos"/>
         <menuitem name="CUPS" id="electricity_contract.cups_list" parent="electricity_contract.menu_contratos" action="action_list_cupscontrato"/>
-        <menuitem name="Clientes" id="res_partner_menu" parent="electricity_contract.menu_clientes" action="account.res_partner_action_customer"/>
+        <menuitem name="Clientes" id="res_partner_menu" parent="electricity_contract.menu_contratos" action="account.res_partner_action_customer"/>
 
         <menuitem name="Tipos Contrato" id="electricity_contract.tipos_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_tipocontrato"/>
         <menuitem name="Estados Contrato" id="electricity_contract.estados_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_estadocontrato"/>
