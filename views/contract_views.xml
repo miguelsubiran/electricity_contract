@@ -39,7 +39,7 @@
                         <field name="cups_id"/>
                         <field name="comercializadora_id"/>
                     </group>
-                </tree>
+                </form>
             </field>
         </record>
 
