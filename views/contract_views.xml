@@ -60,8 +60,8 @@
         <!--Menus Categorias-->
         <menuitem name="Contratos" id="electricity_contract.menu_root"/>
         
-        <menuitem name="Contratos" id="contratos.menu_contratos" parent="contratos.menu_root"/>
-        <menuitem name="Auxiliares" id="contratos.menu_auxiliares" parent="contratos.menu_root"/>
+        <menuitem name="Contratos" id="contratos.menu_contratos" parent="electricity_contract.menu_root"/>
+        <menuitem name="Auxiliares" id="contratos.menu_auxiliares" parent="electricity_contract.menu_root"/>
             <!--menuitem id="tipocontrato_menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
 
         <!--Acciones-->
