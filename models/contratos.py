@@ -10,7 +10,7 @@ class contratos(models.Model):
     fecha_vencimiento=fields.Date(string='F.Vto.')
     estado_id=fields.Many2one('estado.contrato',string='Estado')
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
-    #cliente_id = fields.Many2one('res.partner',string='Cliente')
+    cliente_id = fields.Many2one('res.partner',string='Cliente')
     #comercial_id = fields.Many2one('res.user',string='Comercial')
     #cups_id=fields.Many2one('cups.contrato',string='CUPS')
     #comercializadora_id=fields.Many2one('comercializadora.contrato', string='Comercializadora')
