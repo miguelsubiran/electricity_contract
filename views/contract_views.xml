@@ -60,17 +60,17 @@
         <!--Menus Categorias-->
         <menuitem name="Contratos" id="electricity_contract.menu_root"/>
         
-        <menuitem name="Contratos" id="contratos.menu_contratos" parent="electricity_contract.menu_root"/>
-        <menuitem name="Auxiliares" id="contratos.menu_auxiliares" parent="electricity_contract.menu_root"/>
+        <menuitem name="Contratos" id="electricity_contract.menu_contratos" parent="electricity_contract.menu_root"/>
+        <menuitem name="Auxiliares" id="electricity_contract.menu_auxiliares" parent="electricity_contract.menu_root"/>
             <!--menuitem id="tipocontrato_menu" name="TipoContrato" sequence="1" parent="menu_contratos_root" action="action_list_tipocontrato"/-->
 
         <!--Acciones-->
-        <menuitem name="Contratos" id="manage.contratos_list" parent="contratos.menu_contratos" action="action_list_contratos"/>
-        <menuitem name="CUPS" id="manage.cups_list" parent="contratos.menu_cups" action="action_list_cupscontrato"/>
+        <menuitem name="Contratos" id="electricity_contract.contratos_list" parent="electricity_contract.menu_contratos" action="action_list_contratos"/>
+        <menuitem name="CUPS" id="electricity_contract.cups_list" parent="electricity_contract.menu_cups" action="action_list_cupscontrato"/>
 
-        <menuitem name="Tipos Contrato" id="manage.tipos_contratos_list" parent="contratos.menu_auxiliares" action="action_list_tipocontrato"/>
-        <menuitem name="Estados Contrato" id="manage.estados_contratos_list" parent="contratos.menu_auxiliares" action="action_list_estadocontrato"/>
-        <menuitem name="Comercializadoras" id="manage.comercializadoras_contratos_list" parent="contratos.menu_auxiliares" action="action_list_comercializadora"/>
+        <menuitem name="Tipos Contrato" id="electricity_contract.tipos_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_tipocontrato"/>
+        <menuitem name="Estados Contrato" id="electricity_contract.estados_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_estadocontrato"/>
+        <menuitem name="Comercializadoras" id="electricity_contract.comercializadoras_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_comercializadora"/>
 
     </data>
 </odoo>
