@@ -3,4 +3,4 @@ access_electricity_contract,contratos,model_contratos_electricos,base.group_user
 access_electricity_contract_cups,cups,model_cups_contrato,base.group_user,1,1,1,1
 access_electricity_contract_tipo_contrato,tipocontrato,model_tipo_contrato,base.group_user,1,1,1,1
 access_electricity_contract_estado_contrato,estadocontrato,model_estado_contrato,base.group_user,1,1,1,1
-access_electricity_contract_comercializadora,comercializadora,model_comercializadora,base.group_user,1,1,1,1
+access_electricity_contract_comercializadora,comercializadora,model_comercializadora_contrato,base.group_user,1,1,1,1
