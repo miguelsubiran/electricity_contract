@@ -1,6 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<odoo>
-    <data>
         <record id="view_contratos_electricos_tree" model="ir.ui.view">
             <field name="name">contratos.electricos.tree</field>
             <field name="model">contratos.electricos</field>
@@ -28,7 +25,7 @@
                 <form string="Contratos de Suministro">
                     <group>
                         <group>
-                            <field name="fecha_firma" widget="date"/>
+                            <field name="fecha_firma" string="Fecha de Firma" widget="date"/>
                             <field name="fecha_alta" widget="date"/>
                             <field name="fecha_vencimiento" widget="date"/>
                             <field name="estado_id"/>
