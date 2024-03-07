@@ -57,6 +57,20 @@
                 </tree>
             </field>
         </record>
+        <record id="view_cups_contratos_tree" model="ir.ui.view">
+            <field name="name">cups.contratos.tree</field>
+            <field name="model">cups.contratos</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree string="Datos del Suministro">
+                    <field name="cups" string="CUPS"/>
+                    <field name="domicilio" string="Domicilio"/>
+                    <field name="poblacion" string="Población"/>
+                    <field name="cod_postal" string="Cod. Postal"/>
+                    <field name="provincia" string="Provincia"/>
+                </tree>
+            </field>
+        </record>
 
         <record model="ir.actions.act_window" id="action_list_contratos">
             <field name="name">Contratos</field>
