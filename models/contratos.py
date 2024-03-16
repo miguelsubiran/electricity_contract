@@ -9,7 +9,7 @@ class contratos(models.Model):
     fecha_firma=fields.Date(string='Fecha de firma')
     fecha_alta=fields.Date(string='Fecha de alta')
     fecha_vencimiento=fields.Date(string='Fecha de Vto.')
-    dias_hasta_vto=fields.Date(compute="_get_diasvto")
+    dias_hasta_vto=fields.Char(compute="_get_diasvto")
     estado_id=fields.Many2one('estado.contrato',string='Estado')
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
     cliente_id = fields.Many2one('res.partner',string='Cliente')
@@ -22,7 +22,7 @@ class contratos(models.Model):
     def _get_diasvto(self):
         for contratos in self:
             if isinstance(contratos.fecha_vencimiento, datetime.date):
-                contratos.dias_hasta_vto == contratos.fecha_vencimiento
+                contratos.dias_hasta_vto == str(datetime.today() - contratos.fecha_vencimiento)
                 #contratos.dias_hasta_vto = "0 dias"
             #else:
                 #numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
