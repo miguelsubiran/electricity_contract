@@ -8,7 +8,7 @@ class contratos(models.Model):
     fecha_firma=fields.Date(string='Fecha de firma')
     fecha_alta=fields.Date(string='Fecha de alta')
     fecha_vencimiento=fields.Date(string='Fecha de Vto.')
-    dias_hasta_vto=fields.char(compute="_get_diasvto")
+    #dias_hasta_vto=fields.char(compute="_get_diasvto")
     estado_id=fields.Many2one('estado.contrato',string='Estado')
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
     cliente_id = fields.Many2one('res.partner',string='Cliente')
@@ -18,9 +18,9 @@ class contratos(models.Model):
 
     #@api.one
     #@api.depends('fecha_vencimiento')
-    def _get_diasvto(self):
-        for contratos in self:
-            if isinstance(contratos.fecha_vencimiento):
+    #def _get_diasvto(self):
+        #for contratos in self:
+            #if isinstance(contratos.fecha_vencimiento):
                 #contratos.dias_hasta_vto = "0 dias"
             #else:
                 #numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
