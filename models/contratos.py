@@ -1,4 +1,5 @@
 from odoo import models, fields
+import datetime
 
 class contratos(models.Model):
     _name = 'contratos.electricos'
@@ -20,7 +21,7 @@ class contratos(models.Model):
     #@api.depends('fecha_vencimiento')
     def _get_diasvto(self):
         for contratos in self:
-            if isinstance(contratos.fecha_vencimiento):
+            if isinstance(contratos.fecha_vencimiento, datetime.date):
                 contratos.dias_hasta_vto == contratos.fecha_vencimiento
                 #contratos.dias_hasta_vto = "0 dias"
             #else:
