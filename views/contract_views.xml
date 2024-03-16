@@ -10,7 +10,7 @@
                     <field name="fecha_firma" widget="date"/>
                     <field name="fecha_alta" widget="date"/>
                     <field name="fecha_vencimiento" widget="date"/>
-                    <field name="dias_hasta_vto" class="text-center" style="color:Red;"/>
+                    <field name="dias_hasta_vto" class="text-center"/>
                     <field name="estado_id"/>
                     <field name="tipo_contrato_id"/>
                     <field name="cliente_id"/>
