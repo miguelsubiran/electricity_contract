@@ -16,13 +16,13 @@ class contratos(models.Model):
     cups_id=fields.Many2one('cups.contrato',string='CUPS')
     comercializadora_id=fields.Many2one('comercializadora.contrato', string='Comercializadora')
 
-    @api.one
-    def _get_diasvto(self):
-        for numdias in self:
-            if len(numdias.fecha_vencimiento) == 0:
-                numdias.dias_hasta_vto= "0 dias"
-            else:
-                numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
+    #@api.one
+    #def _get_diasvto(self):
+        #for numdias in self:
+            #if len(numdias.fecha_vencimiento) == 0:
+                #numdias.dias_hasta_vto= "0 dias"
+            #else:
+                #numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
