@@ -22,7 +22,7 @@ class contratos(models.Model):
             if len(numdias.fecha_vencimiento) == 0:
                 numdias.dias_hasta_vto= "0 dias"
             else:
-                numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.timedelta)+" días"
+                numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
