@@ -6,7 +6,7 @@
             <field name="model">contratos.electricos</field>
             <field name="type">tree</field>
             <field name="arch" type="xml">
-                <tree string="Contratos de Suministro" style="text-align: center">
+                <tree style="text-align: center" string="Contratos de Suministro">
                     <field name="fecha_firma" widget="date"/>
                     <field name="fecha_alta" widget="date"/>
                     <field name="fecha_vencimiento" widget="date"/>
