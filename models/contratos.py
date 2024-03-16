@@ -1,5 +1,5 @@
 from odoo import models, fields
-import datetime 
+from datetime import datetime 
 
 class contratos(models.Model):
     _name = 'contratos.electricos'
