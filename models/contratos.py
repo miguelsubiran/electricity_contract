@@ -22,7 +22,7 @@ class contratos(models.Model):
     def _get_diasvto(self):
         for contratos in self:
             if isinstance(contratos.fecha_vencimiento, date):
-                contratos.dias_hasta_vto = str(date.today() - contratos.fecha_vencimiento)
+                contratos.dias_hasta_vto = str((contratos.fecha_vencimiento - date.today()).days) + " días"
             else:
                 contratos.dias_hasta_vto = "---"
 
