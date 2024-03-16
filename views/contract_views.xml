@@ -63,6 +63,22 @@
             </field>
         </record>
 
+        <record id="view_contratos_electricos_calendar" model="ir.ui.view">
+            <field name="name">contratos.electricos.calendar</field>
+            <field name="model">contratos.electricos</field>
+            <field name="type">calendar</field>
+            <field name="arch" type="xml">
+                <calendar string="Vencimientos de Contratos de Suministro" date_start="fecha_vencimiento" color="comercial_id" mode="month">
+                    <field name="fecha_vencimiento" widget="date"/>
+                    <field name="estado_id"/>
+                    <field name="tipo_contrato_id"/>
+                    <field name="cliente_id"/>
+                    <field name="comercial_id"/>
+                    <field name="cups_id"/>
+                </calendar>
+            </field>
+        </record>
+
         <record id="view_tipo_contrato_tree" model="ir.ui.view">
             <field name="name">tipo.contrato.tree</field>
             <field name="model">tipo.contrato</field>
@@ -92,7 +108,7 @@
         <record model="ir.actions.act_window" id="action_list_contratos">
             <field name="name">Contratos</field>
             <field name="res_model">contratos.electricos</field>
-            <field name="view_mode">tree,form</field>
+            <field name="view_mode">tree,form,calendar</field>
         </record>
 
         <record model="ir.actions.act_window" id="action_list_tipocontrato">
