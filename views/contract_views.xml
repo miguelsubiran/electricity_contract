@@ -4,7 +4,7 @@
         <record id="view_contratos_electricos_tree" model="ir.ui.view">
             <field name="name">contratos.electricos.tree</field>
             <field name="model">contratos.electricos</field>
-            <field name="type">tree</field>
+            <field name="type">tree,calendar</field>
             <field name="arch" type="xml">
                 <tree string="Contratos de Suministro">
                     <field name="fecha_firma" widget="date"/>
