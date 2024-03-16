@@ -39,12 +39,16 @@
                             <group>
                                  <field name="fecha_vencimiento" widget="date"/>
                                 <field name="estado_id"/>
+                                <field name="tipo_contrato_id"/>
                             </group>
                         </group>
+                        <separator string="Datos del contrato"/>
                         <group>
-                            <group>
-                                <field name="tipo_contrato_id"/>
+                            <group>               
                                 <field name="cliente_id"/>
+                                <field name="res_partner.street"/>
+                            </group>
+                            <group>
                                 <field name="comercial_id"/>
                             </group>
                         </group>
