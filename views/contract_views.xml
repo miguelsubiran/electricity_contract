@@ -28,14 +28,15 @@
             <field name="arch" type="xml">
                 <form string="Contratos de Suministro">
                     <sheet>
-
                         <group>
+                            <group>
                             <!--group col="6"-->
                                 <field name="fecha_firma" widget="date"/>
                                 <field name="fecha_alta" widget="date"/>
                                 <field name="fecha_vencimiento" widget="date"/>
                                 <field name="estado_id"/>
                             <!--/group-->
+                            </group>
                         </group>
                         <group>
                             <group>
