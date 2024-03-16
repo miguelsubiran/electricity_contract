@@ -1,5 +1,5 @@
 from odoo import models, fields
-from datetime import datetime 
+from datetime import date, datetime
 
 class contratos(models.Model):
     _name = 'contratos.electricos'
@@ -22,10 +22,9 @@ class contratos(models.Model):
     def _get_diasvto(self):
         for contratos in self:
             if isinstance(contratos.fecha_vencimiento, datetime.date):
-                ahora=datetime.now()
-                contratos.dias_hasta_vto == str(ahora.date() - contratos.fecha_vencimiento)
+                contratos.dias_hasta_vto == str(date.today() - contratos.fecha_vencimiento)
             else:
-                contratos.dias_hasta_vto == "0 dias"
+                contratos.dias_hasta_vto == "---"
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
