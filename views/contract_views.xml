@@ -27,25 +27,31 @@
             <field name="type">form</field>
             <field name="arch" type="xml">
                 <form string="Contratos de Suministro">
-                    <group>
-                        <!--group col="6"-->
-                            <field name="fecha_firma" widget="date"/>
-                            <field name="fecha_alta" widget="date"/>
-                            <field name="fecha_vencimiento" widget="date"/>
-                            <field name="estado_id"/>
-                        <!--/group-->
-                    </group>
-                    <group>
-                        <group col="12">
-                            <field name="tipo_contrato_id"/>
-                            <field name="cliente_id"/>
-                            <field name="comercial_id"/>
+                    <sheet>
+
+                        <group>
+                            <!--group col="6"-->
+                                <field name="fecha_firma" widget="date"/>
+                                <field name="fecha_alta" widget="date"/>
+                                <field name="fecha_vencimiento" widget="date"/>
+                                <field name="estado_id"/>
+                            <!--/group-->
                         </group>
-                        <group col="12">
-                            <field name="cups_id"/>
-                            <field name="comercializadora_id"/>
+                        <group>
+                            <group>
+                                <field name="tipo_contrato_id"/>
+                                <field name="cliente_id"/>
+                                <field name="comercial_id"/>
+                            </group>
                         </group>
-                    </group>
+                        <separator string="Datos del punto de suministro"/>
+                        <group>
+                            <group>
+                                <field name="cups_id"/>
+                                <field name="comercializadora_id"/>
+                            </group>
+                        </group>
+                    </sheet>
                 </form>
             </field>
         </record>
