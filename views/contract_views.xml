@@ -40,6 +40,8 @@
                             <field name="tipo_contrato_id"/>
                             <field name="cliente_id"/>
                             <field name="comercial_id"/>
+                        </group>
+                        <group col="12">
                             <field name="cups_id"/>
                             <field name="comercializadora_id"/>
                         </group>
