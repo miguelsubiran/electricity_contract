@@ -46,7 +46,7 @@
                         <group>
                             <group>               
                                 <field name="cliente_id"/>
-                                <field name="res.partner.street"/>
+                                <field name="street"/>
                             </group>
                             <group>
                                 <field name="comercial_id"/>
