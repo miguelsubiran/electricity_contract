@@ -22,10 +22,9 @@ class contratos(models.Model):
     def _get_diasvto(self):
         for contratos in self:
             if isinstance(contratos.fecha_vencimiento, datetime.date):
-                contratos.dias_hasta_vto == str(datetime.timedelta - contratos.fecha_vencimiento)
-                #contratos.dias_hasta_vto = "0 dias"
-            #else:
-                #numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
+                contratos.dias_hasta_vto == str(datetime.date.today - contratos.fecha_vencimiento)
+            else:
+                contratos.dias_hasta_vto == "0 dias"
 
 class TipoContrato(models.Model):
     _name = 'tipo.contrato'
