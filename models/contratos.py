@@ -20,7 +20,7 @@ class contratos(models.Model):
     #@api.depends('fecha_vencimiento')
     def _get_diasvto(self):
         for contratos in self:
-            if isinstance(contratos.fecha_vencimiento):
+            if isinstance(contratos.fecha_vencimiento) == False:
                 contratos.dias_hasta_vto = "0 dias"
             #else:
                 #numdias.dias_hasta_vto == str(numdias.fecha_vencimiento-datetime.today())+" días"
