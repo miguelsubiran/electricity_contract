@@ -51,15 +51,16 @@
                             </group>
                         </group>
                         <notebook>
-                        <page>
-                        <separator string="Datos del punto de suministro"/>
-                        <group>
-                            <group>
-                                <field name="cups_id"/>
-                                <field name="comercializadora_id"/>
-                            </group>
-                        </group>
-                        </page>
+                            <page>
+                                <separator string="Datos del punto de suministro"/>
+                                    <group>
+                                        <field name="cups_id"/>
+                                        <field name="comercializadora_id"/>
+                                    </group>
+                            </page>
+                            <page>
+                                <separator string="Otros datos"/>
+                            </page>
                         </notebook>
                     </sheet>
                 </form>
