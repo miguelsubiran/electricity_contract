@@ -66,7 +66,7 @@
                                 </group>
                             </page>
                             <page>
-                                <field name="incidencia_ids"/>
+                                <!--field name="incidencia_ids"/-->
                             </page>
                             <page string="Observaciones">
                                 <field name="observaciones"/>
