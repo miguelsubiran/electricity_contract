@@ -65,7 +65,8 @@
                                     </group>
                                 </group>
                             </page>
-                            <page string="Otros datos">
+                            <page string="Observaciones">
+                                <field name="observaciones"/>
                             </page>
                         </notebook>
                     </sheet>
