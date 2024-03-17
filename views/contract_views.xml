@@ -26,20 +26,16 @@
             <field name="model">contratos.electricos</field>
             <field name="arch" type="xml">
                 <search>
-                    <!-- Búsqueda rápida -->
+                    <!-- Busqueda rapida -->
                     <field name="estado_id" string="Estado"/>
                     <field name="tipo_contrato_id" string="Tipo Contrato"/>
                     <field name="comercial_id" string="Comercial"/>
                     <field name="cups_id" string="CUPS"/>
                     <field name="comercializadora_id" string="Comercialiadora"/>
-                    <!-- Filtro rápido -->
-                    <!-- Agrupación rápida -->
+                    <!-- Filtro rapido -->
+                    <!-- Agrupacion rapida -->
                     <group expand="0" string="Estado">
-<<<<<<< HEAD
-                        <filter name="estado" context="[('group_by':'tipo_contrato_id')]"/>
-=======
-                        <filter name="estado" string="Estado" context="[()'group_by':'tipo_contrato_id')]"/>
->>>>>>> 2f721aede3e33321d13559059d9bea5bde408685
+                        <filter name="estado" context="{'group_by':'tipo_contrato_id'}"/>
                     </group>
                 </search>
             </field>
