@@ -126,7 +126,7 @@
             </field>
         </record>
 
-        <record id="view_incidencias_contrato_tree" model="ir.ui.view">
+        <!--record id="view_incidencias_contrato_tree" model="ir.ui.view">
             <field name="name">incidencias.contrato.tree</field>
             <field name="model">incidencias.contrato</field>
             <field name="type">tree</field>
@@ -139,7 +139,7 @@
                     <field name="observacion_incidencia"/>
                 </tree>
             </field>
-        </record>
+        </record-->
 
         <!--record id="view_cups_contrato_tree" model="ir.ui.view">
             <field name="name">cups.contrato.tree</field>
@@ -192,11 +192,11 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <record model="ir.actions.act_window" id="action_list_incidenciascontrato">
+        <!--record model="ir.actions.act_window" id="action_list_incidenciascontrato">
             <field name="name">Incidencias</field>
             <field name="res_model">incidencias.contrato</field>
             <field name="view_mode">tree</field>
-        </record>
+        </record-->
 
         <!--Menus Categorias-->
         <menuitem name="Contratos" id="electricity_contract.menu_root"/>
@@ -208,7 +208,7 @@
         <!--Acciones-->
         <menuitem name="Contratos" id="electricity_contract.contratos_list" parent="electricity_contract.menu_contratos" action="action_list_contratos"/>
         <menuitem name="CUPS" id="electricity_contract.cups_list" parent="electricity_contract.menu_contratos" action="action_list_cupscontrato"/>
-        <menuitem name="Incidencias" id="electricity_contract.incidencias_list" parent="electricity_contract.menu_contratos" action="action_list_incidenciascontrato"/>   
+        <!--menuitem name="Incidencias" id="electricity_contract.incidencias_list" parent="electricity_contract.menu_contratos" action="action_list_incidenciascontrato"/-->
         <menuitem name="Clientes" id="res_partner_menu" parent="electricity_contract.menu_contratos" action="account.res_partner_action_customer"/>
 
         <menuitem name="Tipos Contrato" id="electricity_contract.tipos_contratos_list" parent="electricity_contract.menu_auxiliares" action="action_list_tipocontrato"/>

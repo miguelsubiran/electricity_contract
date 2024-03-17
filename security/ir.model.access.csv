@@ -5,4 +5,3 @@ access_electricity_contract_tipo_contrato,tipocontrato,model_tipo_contrato,base.
 access_electricity_contract_estado_contrato,estadocontrato,model_estado_contrato,base.group_user,1,1,1,1
 access_electricity_contract_comercializadora,comercializadora,model_comercializadora_contrato,base.group_user,1,1,1,1
 access_electricity_contract_comercial_contrato,comercialcontrato,model_comercial_contrato,base.group_user,1,1,1,1
-access_electricity_contract_incidencias_contrato,incidenciascontrato,model_incidencias_contrato,base.group_user,1,1,1,1

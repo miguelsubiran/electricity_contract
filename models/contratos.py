@@ -67,12 +67,12 @@ class ComercialContrato(models.Model):
 
     name=fields.Char(string='Comercial')
     
-class IncidenciasContrato(models.Model):
-    _name = 'incidencias.contrato'
-    _description='Incidencias'
+#class IncidenciasContrato(models.Model):
+    #_name = 'incidencias.contrato'
+    #_description='Incidencias'
 
-    fecha_incidencia=fields.Date(string='Fecha')
-    motivo_incidencia=fields.Char(string="Motivo")
-    resuelta=fields.Boolean(string="Resuelta")
-    fecha_resolucion=fields.Date(string="Fecha Resol.")
-    observacion_incidencia=fields.Texto(string="Observaciones")
+    #fecha_incidencia=fields.Date(string='Fecha')
+    #motivo_incidencia=fields.Char(string="Motivo")
+    #resuelta=fields.Boolean(string="Resuelta")
+    #fecha_resolucion=fields.Date(string="Fecha Resol.")
+    #observacion_incidencia=fields.Texto(string="Observaciones")
