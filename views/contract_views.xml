@@ -21,6 +21,27 @@
             </field>
         </record>
         
+        <record id="view_contratos_electricos_search" model="ir.ui.view">
+            <field name="name">contratos.electricos.search</field>
+            <field name="model">contratos.electricos</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <search>
+                    <!-- Búsqueda rápida -->
+                    <field name="estado_id"/>
+                    <field name="tipo_contrato_id"/>
+                    <field name="comercial_id"/>
+                    <field name="cups_id"/>
+                    <field name="comercializadora_id"/>
+                    <!-- Filtro rápido -->
+                    <!-- Agrupación rápida -->
+                    <group expand="0" string="Estado">
+                        <filter name="estado" context="{'group_by':'tipo_contrato_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
         <record id="view_contratos_electricos_form" model="ir.ui.view">
             <field name="name">contratos.electricos.form</field>
             <field name="model">contratos.electricos</field>
