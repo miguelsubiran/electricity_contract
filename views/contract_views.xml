@@ -50,6 +50,7 @@
                                 <field name="usuario_id"/>
                             </group>
                         </group>
+                        <notebook>
                         <separator string="Datos del punto de suministro"/>
                         <group>
                             <group>
@@ -57,6 +58,7 @@
                                 <field name="comercializadora_id"/>
                             </group>
                         </group>
+                        </notebook>
                     </sheet>
                 </form>
             </field>
