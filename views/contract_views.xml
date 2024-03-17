@@ -61,7 +61,7 @@
                                         <field name="cups_domicilio"/>
                                         <field name="cups_poblacion"/>
                                         <field name="cups_cod_postal"/>
-                                        <field name="cups_provincia", domain="[('country_id','=','68')]"/>                                
+                                        <field name="cups_provincia", filter_domain="[('country_id','=','68')]"/>                                
                                     </group>
                                 </group>
                             </page>
