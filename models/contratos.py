@@ -14,6 +14,7 @@ class contratos(models.Model):
     tipo_contrato_id = fields.Many2one('tipo.contrato', string='Tipo de contrato')
     cliente_id = fields.Many2one('res.partner',string='Cliente')
     comercial_id = fields.Many2one('comercial.contrato',string='Comercial')
+    usuario_id = fields.Many2one('res.users',string='Usuario')
     cups_id=fields.Many2one('cups.contrato',string='CUPS')
     comercializadora_id=fields.Many2one('comercializadora.contrato', string='Comercializadora')
 

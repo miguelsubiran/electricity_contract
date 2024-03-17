@@ -49,7 +49,7 @@
                             </group>
                             <group>
                                 <field name="comercial_id"/>
-                                <field name="create_uid"/>
+                                <field name="usuario_id"/>
                             </group>
                         </group>
                         <separator string="Datos del punto de suministro"/>
