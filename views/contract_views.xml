@@ -29,15 +29,13 @@
                 <form string="Contratos de Suministro">
                     <sheet>
                         <separator string="Datos del contrato"/>
-                        <group colspan="4">
-                            <group colspan="2" col="2">
-                            <!--group col="6"-->
+                        <group>
+                            <group>
                                 <field name="fecha_firma" widget="date"/>
                                 <field name="fecha_alta" widget="date"/>
                                 <field name="fecha_vencimiento" widget="date"/>
-                            <!--/group-->
                             </group>
-                            <group colspan="2" col="2">
+                            <group>
                                 <field name="tipo_contrato_id"/>
                                 <field name="estado_id"/>
                             </group>
