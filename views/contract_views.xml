@@ -69,7 +69,7 @@
                                 <!--field name="incidencia_ids" widget="many2many_tags"/-->
                             </page>
                             <page string="Observaciones">
-                                <field name="observaciones"/>
+                                <field name="observaciones" string="Observaciones"/>
                             </page>
                         </notebook>
                     </sheet>
