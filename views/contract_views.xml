@@ -88,9 +88,9 @@
                     <field name="comercializadora_id" string="Comercialiadora"/>
                     <!-- Filtro rapido -->
                     <!-- Agrupacion rapida -->
-                    <group expand="0" string="Estado">
+                    <!--group expand="0" string="Estado">
                         <filter name="estado" string="Estado" context="{'group_by':'tipo_contrato_id'}"/>
-                    </group>
+                    </group-->
                 </search>
             </field>
         </record>
