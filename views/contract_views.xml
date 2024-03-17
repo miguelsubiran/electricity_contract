@@ -57,7 +57,7 @@
                                     <field name="comercializadora_id"/>
                                 </group>
                             </page>
-                            <page string="Otros datos"/>
+                            <page string="Otros datos">
                             </page>
                         </notebook>
                     </sheet>
