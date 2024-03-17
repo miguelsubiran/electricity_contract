@@ -20,7 +20,7 @@ class contratos(models.Model):
     cups_domicilio = fields.Char(string="Domicilio")
     cups_poblacion = fields.Char(string="Poblacion")
     cups_cod_postal = fields.Char(string="Cod. Postal")
-    cups_provincia = fields.Many2one('res.country.state', string="Provincia",domain="[('country_id','=','68')]")
+    cups_provincia = fields.Many2one('res.country.state', string="Provincia")
 
     #@api.one
     #@api.depends('fecha_vencimiento')
