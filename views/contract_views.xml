@@ -35,7 +35,11 @@
                     <!-- Filtro rápido -->
                     <!-- Agrupación rápida -->
                     <group expand="0" string="Estado">
+<<<<<<< HEAD
+                        <filter name="estado" context="[('group_by':'tipo_contrato_id')]"/>
+=======
                         <filter name="estado" string="Estado" context="[()'group_by':'tipo_contrato_id')]"/>
+>>>>>>> 2f721aede3e33321d13559059d9bea5bde408685
                     </group>
                 </search>
             </field>
