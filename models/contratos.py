@@ -22,7 +22,7 @@ class contratos(models.Model):
     cups_cod_postal = fields.Char(string="Cod. Postal")
     cups_provincia = fields.Many2one('res.country.state', string="Provincia")
     observaciones = fields.Text(string="Observaciones")
-    incidencia_ids = fields.One2many('incidencias.contrato', string="Incidencias de Contrato")
+    #incidencia_ids = fields.Many2many('incidencias.contrato', string="Incidencias de Contrato")
 
     #@api.one
     #@api.depends('fecha_vencimiento')
