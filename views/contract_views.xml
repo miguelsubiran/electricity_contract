@@ -56,6 +56,12 @@
                                     <field name="cups_id"/>
                                     <field name="comercializadora_id"/>
                                 </group>
+                                <group>
+                                    <field name="cups_domicilio"/>
+                                    <field name="cups_poblacion"/>
+                                    <field name="cups_cod_postal"/>
+                                    <field name="cups_provincia"/>                                
+                                </group>
                             </page>
                             <page string="Otros datos">
                             </page>
